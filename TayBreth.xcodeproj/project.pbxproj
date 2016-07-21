@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		0A7FB8011D3DBC6500F7F4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FB8001D3DBC6500F7F4BB /* Assets.xcassets */; };
 		0A7FB8041D3DBC6500F7F4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7FB8021D3DBC6500F7F4BB /* LaunchScreen.storyboard */; };
 		0A7FB80F1D3DBC6500F7F4BB /* TayBrethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FB80E1D3DBC6500F7F4BB /* TayBrethTests.swift */; };
+		0ADE9A121D3F1E2B00E6766E /* JiraContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE9A111D3F1E2B00E6766E /* JiraContext.swift */; };
+		0ADE9A131D3F1E2B00E6766E /* JiraContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE9A111D3F1E2B00E6766E /* JiraContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		0A7FB80A1D3DBC6500F7F4BB /* TayBrethTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TayBrethTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7FB80E1D3DBC6500F7F4BB /* TayBrethTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayBrethTests.swift; sourceTree = "<group>"; };
 		0A7FB8101D3DBC6500F7F4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADE9A111D3F1E2B00E6766E /* JiraContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JiraContext.swift; path = ../JiraContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		0A7FB7F81D3DBC6500F7F4BB /* TayBreth */ = {
 			isa = PBXGroup;
 			children = (
+				0ADE9A111D3F1E2B00E6766E /* JiraContext.swift */,
 				0A7FB7F91D3DBC6500F7F4BB /* AppDelegate.swift */,
 				0A7FB7FB1D3DBC6500F7F4BB /* ViewController.swift */,
 				0A7FB7FD1D3DBC6500F7F4BB /* Main.storyboard */,
@@ -160,7 +164,7 @@
 				};
 			};
 			buildConfigurationList = 0A7FB7F11D3DBC6400F7F4BB /* Build configuration list for PBXProject "TayBreth" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -203,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADE9A121D3F1E2B00E6766E /* JiraContext.swift in Sources */,
 				0A7FB7FC1D3DBC6500F7F4BB /* ViewController.swift in Sources */,
 				0A7FB7FA1D3DBC6500F7F4BB /* AppDelegate.swift in Sources */,
 			);
@@ -213,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7FB80F1D3DBC6500F7F4BB /* TayBrethTests.swift in Sources */,
+				0ADE9A131D3F1E2B00E6766E /* JiraContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TayBreth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusdatsolutions.TayBreth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TayBreth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusdatsolutions.TayBreth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +410,7 @@
 				0A7FB8151D3DBC6500F7F4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A7FB8161D3DBC6500F7F4BB /* Build configuration list for PBXNativeTarget "TayBrethTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +419,7 @@
 				0A7FB8181D3DBC6500F7F4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
